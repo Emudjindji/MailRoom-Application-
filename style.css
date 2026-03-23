@@ -1,0 +1,85 @@
+body {
+    background:linear-gradient(to bottom, #0a0f2e, #1a1a4e);
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;  /* ← ADD THIS */
+}
+
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+
+main{
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer{
+    text-align: center;
+    margin: 30px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5px;
+    background: rgba(255,255,255,0.1);  /* ← add this  to the back ground of our text */
+    color: white;                        /* ← add this  to the color of the text*/
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mylogo{
+
+    width: 50px;
+    border: none;
+
+}
+
+.signup{
+    color:white;
+    text-decoration:  none;
+    margin-left:20px;
+}
+
+h1{
+    color: white;
+    letter-spacing: 3px;
+}
+/* This positions the CONTAINER at bottom left */
+.contact {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 12px;
+    color: white;
+}
+
+/* This styles the LINKS inside it */
+.contact a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.signuplogin {
+    color: white; /* trying to change the color of the text */
+
+}
+.signuplogin a{
+
+    color: #ccc;
+
+}

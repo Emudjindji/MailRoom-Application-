@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+
+<!---we need to tell the browser , what language this is by adding a lang  ID , this lets the browser know what what language is our page in -->
+<html lang="en">
+
+    
+     <head>
+        <!-- this include all of our external links and meta data about the page . -->
+        <meta charset="UTF-8">
+        <title> Et Appartment login page </title>
+        <link rel="stylesheet" href="style.css" >
+
+     </head>
+
+     <!---
+     body contains : 
+        <header>  →  "Welcome to Et Appartment"
+        <main>    →  the form (username, password, login button)
+        <footer>  →  circle icon + "Signup, just in case you want to sign up"
+     -->
+
+     <body>
+
+        <!-- Everythings that the users sees live here ; the body  -->
+        
+        <header>
+            <!-- The heading of the page says Welcome to ET Appartment ; the boggest ; used for title -->
+             <h1> WELCOME TO ET APPARTMENT </h1> 
+        </header>
+
+        
+        <main>
+
+            <!-- here we put our login page , we put the main part of our page , like login or just the middle part  -->
+             <!-- THE FORM tag , holds everything that wraps all fields togehter like a box , it holds everything , it sends methods 
+              to the backednd as a post method . to login -->
+
+
+            <form action='/login' method="POST">
+                <input type="text" placeholder="Username" />
+                <input type="password" placeholder="passWord" />
+                <button>Login</button>
+                
+
+            </form>
+        </main>
+
+        <footer>
+            <!-- this is the bottom of the page , the exit of the page , here we put like the application icon and sign up link  -->
+             <a class="signup" href="signup.html"> Don't have an account ? Click here</a>
+             <img class="mylogo" src="images.png.jpg" alt="Apartment Icon" />
+             <p class="contact">
+
+                 <a href="mailto:Etiennemudjindj@gmail.com">Etiennemudjindj@gmail.com</a>  <br> 
+
+                 <a href="tel:" Number : 682-207-0371>682-207-0371</a> 
+                
+             </p>
+        </footer>
+
+     </body>
+
+
+
+
+</html>
+
+

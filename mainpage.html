@@ -1,0 +1,149 @@
+<!DOCTYPE html>  <!-- This is to let the browser know thta this is an HTML page-->
+
+<!-- every html page has an html tag where we place all of our codes. -->
+
+<html lang="en">
+    <!-- 
+    wihtin the html 
+       . head for meta data 
+       .body for our codes  
+           .header
+           .main
+           .footer
+
+
+    -->
+
+    <head>
+        <!-- what goe here is the meta data and what shows up on the browser-->
+         <title> Et Appartment main page</title>
+         <meta charset="UTF-8">
+
+    </head>
+
+    <body>
+        <!-- this is where our page contents live at -->
+         <div>
+            <!-- when we just need a plain empty box with no special meaning, just so we can grab it with CSS and style it however we want.-->
+             <!--A <div> is just an empty box with no meaning — you give i -->
+         </div>
+
+         <!-- use <aside> tag to tell the browser that ayy  use this for the side of the page, or the side of main  -->
+         <aside>
+
+            <!-- here to the side , we need an circle with initial within it -->
+            <div> JD </div>
+            <div>
+                <h3> User name </h3>
+                <p>Leasing staff member </p>
+            </div>
+            <!-- then we need a div for user infos -->
+             <div>
+                <h5> MY INFORMATION </h5>
+                <form action='/Update Info' method="POST">
+                    <input type="text" placeholder="First name "/>
+                    <input type="text" placeholder="Last name "/>
+                    <input type="text" placeholder="user name "/>
+                    <input type="email" placeholder="Email adress"/>
+                    <input type="password" placeholder="password"/>
+                    <button>Update info</button>
+                </form>
+
+                <form action='/Log out' method ="POST">
+                    <button>LOG OUT</button>
+                </form>
+             </div>
+
+            
+
+
+         </aside>
+
+         <!-- TML actually has a special tag for navigation bars-->
+
+         <nav>
+            <!-- use button to click the side bar -->
+            <button>☰</button>
+            <p>Et Appartment </p>
+            <p>Mailroom Staff</p>
+         </nav>
+
+        <main>
+
+
+            <div>
+                <P>GOOD MORNING</P>
+                <h1> JOHN DOE</h1>
+
+            </div>
+
+            <!-- 3 divs  to represent the 3 rwos that shows our datas and their numbers  -->
+            <div>
+
+                <div> 
+                    <h2>int </h2>
+                    <p>PENDING</p>
+                </div>
+                <div>
+                    <h2>int</h2>
+                    <p>UNKNOWN</p>
+                </div>
+
+                <div>
+                    <h2>int </h2>
+                    <p>THIS MONTH</p>
+
+                </div>
+            </div>
+            
+            <!-- now we define containers or boxed of each 4 major options -->
+            <div>
+                <p>Quick Actions</p>
+
+                <!-- make them cliclable each -->
+                
+                <a href="AddPackage.html">
+                    <div>
+                        <p>📦</p>
+                        <h2>ADD Package</h2>
+                        <p>Register a new delivery</p>
+                    </div>
+                </a>
+
+                <a href="HandlePickup.html">
+                    <div>
+                        <p>✅</p>
+                        <h2>Handle pickup</h2>
+                        <p>Mark as picked up</p>
+                    </div>
+                </a>
+
+                <a href="ViewResident.html">
+                    <div>
+                        <p>👤</p>
+                        <h2>View Resident </h2>
+                        <p>Search package history</p>
+                    </div>
+
+                </a>
+                <a href="ViewPackage.html">
+
+                    <div>
+                        <p>📋</p>
+                        <h2>View Packages</h2>
+                        <p>Browse all packages</p>
+
+                    </div>
+
+
+                </a>
+
+                
+            </div>
+        </main>
+
+        
+    </body>
+
+
+</html>
