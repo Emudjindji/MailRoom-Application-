@@ -1,0 +1,57 @@
+
+body {
+    background-color: #0c0a1e;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+    padding: 0 40 ; /* padding has two values , the topn to bottom and  and left to  right, for breating spaces. */
+
+}
+
+.page-container {
+
+    display:flex;
+
+}
+
+.sidebar
+{
+    /* we want the side bar to be to the left of the page */ 
+    /* use width */
+    width: 240px;  
+
+}
+
+.main-content
+{
+    flex:1
+}
+
+.statrow
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20;
+}
+
+.cards-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.sidebar {
+    width: 240px;
+    transform: translateX(-240px);
+    transition: 0.3s;
+}
